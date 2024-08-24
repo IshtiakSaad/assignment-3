@@ -440,7 +440,7 @@
 
             <!-- Query Section -->
             <section>
-                <div class="bg-[url('./assets/bg.jpg')] bg-cover bg-contain border-4 border-indigo-600 pb-20">
+                <div class="bg-[url('./assets/bg.jpg')] bg-cover bg-contain border-2 border-white pb-20">
                     <div class="w-11/12 lg:w-full mx-auto pt-20">
                         <div class="flex justify-center">
                             <p class="bg-secondary text-black font-bold bg-base-100 btn btn-sm rounded-box my-1">
@@ -451,18 +451,18 @@
                         <h1 class="font-bold text-3xl lg:text-4xl text-center mt-4 mb-6">Let's Discuss Next Project</h1>
                         <p class="text-center font-bold text-gray-600 lg:w-5/12 mx-auto pb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     </div>
-                    <div class="w-11/12 lg:w-8/12 mx-auto grid grid-col-2 lg:grid-cols-2 gap-4">
+                    <div class="w-11/12 lg:w-8/12 mx-auto grid grid-col-1 lg:grid-cols-2 gap-4">
                         <input type="text" placeholder="First Name*" class="input w-full rounded-full" />
                         <input type="text" placeholder="Last Name*" class="input w-full rounded-full" />
                         <input type="text" placeholder="Phone*" class="input w-full rounded-full" />
                         <input type="text" placeholder="Email*" class="input w-full rounded-full" />
-                        <textarea class="textarea w-full col-span-2 h-72 rounded-box" placeholder="Write your message here"></textarea>
+                        <textarea class="textarea col-span-2 h-72 rounded-box" placeholder="Write your message here"></textarea>
                     </div>
                     <div class="w-11/12 lg:w-8/12 mt-6 mx-auto">
-                        <a class="btn w-full bg-primary text-black font-bold rounded-full border-primary">
+                        <a class="text-md btn w-full bg-primary text-black font-bold rounded-full border-primary">
                             Send Mail
-                            <span class="bg-black p-2 rounded-full">
-                                <i class=" fa-sharp fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                            <span class="bg-black rounded-full">
+                                <i class=" fa-sharp p-1 fa-solid fa-arrow-right -rotate-45 text-white"></i>
                             </span>
                         </a>
                     </div>
@@ -471,9 +471,37 @@
         </main>
         
         <!-- Footer -->
-        <footer>
-            
-        </footer>
+        <footer class="footer footer-center bg-[rgb(28,28,28)] py-20 lg:p-20">
+            <div class="w-3/4">
+                <div class="flex gap-2 items-center mb-4">
+                    <span class="bg-primary w-8 rounded-full text-center">
+                        <i class="text-2xl fa-sharp fa-solid fa-arrow-right -rotate-45 text-black">
+                        </i>
+                    </span>
+                    <h1 class="text-3xl font-bold text-white">
+                        Rinterio
+                    </h1>
+                </div>
+                <p class="font-bold text-gray-600 lg:w-3/4 mb-8">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                </p>
+              <nav class="grid grid-flow-row lg:grid-flow-col gap-4 lg:gap-32 text-white lg:mb-8 mb-4">
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Portfolio</a>
+                <a class="link link-hover">Blog</a>
+                <a class="link link-hover">Contact Us</a>
+              </nav>
+              <div class="">
+                <a class="w-64 lg:w-44 btn bg-primary text-black font-bold rounded-full border-none">
+                    Book Consult
+                    <span class="bg-black p-2 rounded-full">
+                        <i class=" fa-sharp fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                    </span>
+                  </a>
+              </div>
+            </div>
+          </footer>
     </body>
 
 </html>
